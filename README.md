@@ -1,18 +1,24 @@
+# 🚀 LinkedIn Job Scraper 🔍
 
-# 🚀 LinkedIn Job Scraper
+![Puppeteer](https://img.shields.io/badge/Puppeteer-✔️-blue) 
+![Node.js](https://img.shields.io/badge/Node.js-%3E%3D14-green) 
+![Automation](https://img.shields.io/badge/Automation-✔️-red)
 
-This project is an **automated LinkedIn job post scraper** built with Puppeteer.  
-It logs into LinkedIn, extracts job posts from the **#MohaliJobs** hashtag, and retrieves HR email & phone details.
+## 📜 **Overview**
+This project is an **automated LinkedIn job post scraper** built using **Puppeteer** with **stealth and ad-blocking capabilities**. It logs into LinkedIn, navigates to job posts, expands post details, extracts **HR contact information** (emails, phone numbers), and saves screenshots of relevant posts.
 
-## 📌 Features
-✅ **Login to LinkedIn** using environment variables  
-✅ **Extract job posts** from LinkedIn's feed  
-✅ **Retrieve HR contact details** (emails & phone numbers)  
-✅ **Take screenshots** of job posts for later review  
-✅ **Stealth Mode Enabled** to bypass LinkedIn bot detection  
+⚡ **Key Features:**
+- ✅ **Automated Login** using environment variables.
+- ✅ **Scrolls & Loads More Posts** dynamically.
+- ✅ **Expands “See more” in job posts** for complete visibility.
+- ✅ **Extracts HR emails & phone numbers** (if available).
+- ✅ **Saves job post screenshots** locally.
+- ✅ **Uses Puppeteer Stealth Mode** to avoid detection.
 
-## 🔧 Installation
-1. **Clone the repository**
-   ```sh
-   git clone https://github.com/yourusername/linkedin-job-scraper.git
-   cd linkedin-job-scraper
+---
+
+## 🛠 **Setup Instructions**
+### 1️⃣ **Clone the Repository**
+```sh
+git clone https://github.com/your-username/linkedin-job-scraper.git
+node scarper.js
